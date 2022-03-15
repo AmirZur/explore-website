@@ -9,13 +9,126 @@ html, body {
   background-color: #fff;
 }
 
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
+#logo-name {
+  width: 200px;
 }
 
-main > h1 {
+.top-image {
+  width: 200px;
+}
+
+#first-row {
+  height: 300px;
+}
+
+#second-row {
+  margin-top: 50px;
+}
+
+#third-row {
+  background: #DBE1D4;
+  padding: 15px;
+  border-radius: 30px;
+}
+
+#fourth-row {
+  margin-top: 30px;
+}
+
+#mission-container {
+  background: #DBE1D4;
+  height: 100%;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.left-col {
+  padding: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.right-col {
+  padding-top: 40px;
+}
+
+.button {
+  margin: 20px;
+  margin-top: 5px;
+  font-size: 1.2em;
+  background-color: #E1AA35;
+}
+
+.mission {
+  width: 50%;
+  float: left;
+}
+
+.mission-statement {
+  font-weight: bold;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 150px;
+}
+
+#video1 {
+  margin-left: 10px;
+}
+
+#video2 {
+  margin-left: 400px;
+}
+
+#video3 {
+  margin-left: 100px;
+}
+
+#here-img {
+  height: 400px;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+#here-vid {
+  width: 550px; 
+  height: 320px;
+}
+
+#video-img {
+  height: 700px;
+}
+
+.person-img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+#help {
   text-align: center;
-  font-size: 3.5em;
+  margin-top: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+h2 {
+  color: #543315;
+}
+
+.button {
+  color: white;
+}
+
+h1 {
+  color: #543315;
+  font-size: 60px;
+}
+
+#help {
+  background: #FBCC67;
 }

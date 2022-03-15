@@ -5,12 +5,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
   <title>Vanilla JavaScript App</title>
 </head>
 
 <body>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <div class="row" id="logo-name">
+        <img src="" alt="logo" class="col-sm">
+        <h3 class="col-sm">Explore</h3>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav-bar">
+      <a class="navbar-brand" href="#">Navigation bar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    
+    <div class="container" style="margin-top:30px">
+      <div class="row" id="first-row">
+        <div class="col-sm-9 text-center left-col">
+          <div id="mission-container">
+            <h2>Mission as a:</h2>
+            <br>
+           <div class="mission">
+            <a href="#" class="btn btn-primary button">Student</a>
+            <p class="mission-statement">explore the whole concept of careers to confidently prepare me for my long-term work environment</p></div>
+           <div class="mission">
+            <a href="#" class="btn btn-primary button">Teacher</a>
+            <p class="mission-statement">commit to guide the future generation in their career journey in the modern world.</p>
+             </div>
+          </div>
+        </div>
+        <div class="col-sm-3 text-center right-col">
+          <video width="320" height="240" muted loop playsinline autoplay data src="https://cdn.dribbble.com/users/721278/screenshots/15322527/media/ed945c1890320c7ca9be231cd7397653.mp4" alt="video" class="top-video" ></video>
+        </div>
+      </div>
+      <div class="row" id="second-row">
+        <div class="col-sm-7 left-col">
+          <div id="videos-container">
+            <video class="circle" muted loop playsinline autoplay data src="https://cdn.dribbble.com/users/787686/screenshots/12123240/media/4d9be743a9ba917eafe03fb69eb744ff.mp4" alt="v1" id="video1"></video>
+            <p>21st century workforce is different now</p>
+            <video class="circle" muted loop playsinline autoplay data src="https://cdn.dribbble.com/users/721278/screenshots/14007533/media/baf08042bd923f2612151585e163af6d.mp4" alt="v2" id="video2"></video>
+            <p>connect with people across the earth</p>
+            <video class="circle" muted loop playsinline autoplay data src="https://cdn.dribbble.com/users/77628/videos/12399/comp_1_4.mp4" alt="v3" id="video3"></video>
+            <p>explore your career interests as a VIP</p>
+          </div>
+        </div>
+        <div class="col-sm-5">
+          <h2 style="text-align: center;">Why You're Here</h2><br>
+          <iframe src="https://www.youtube.com/embed/watch?v=CjrFnmeGtL8" alt="video" id="here-vid"></iframe>
+        </div>
+      </div>
+      <div class="row text-center" id="third-row">
+        <h2>Be a part of our success</h2>
+        <iframe src="https://youtube.com/embed/h7-D3gi2lL8" alt="video" id="video-img"></iframe>
+      </div>
+      <div class="row" id="fourth-row">
+        <div class="col-sm-3 text-center">
+          <img src="https://cdn.dribbble.com/users/916023/screenshots/17349654/media/ad178fd8a3b8fd28ca02eade078fc7c0.png?compress=1&resize=1600x1200&vertical=top" alt="img" class="person-img">
+          <p>Person</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <img src="https://cdn.dribbble.com/users/916023/screenshots/16680771/media/2ea165b7935db4e5129f1b2c3b60741a.png?compress=1&resize=1600x1200&vertical=top" alt="img" class="person-img">
+          <p>Person</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <img src="https://cdn.dribbble.com/users/916023/screenshots/15003123/media/1f7a8b14fc2b25568643a341b1f2bc0f.png?compress=1&resize=1600x1200&vertical=top" alt="img" class="person-img">
+          <p>Person</p>
+        </div>
+        <div class="col-sm-3 text-center">
+          <img src="https://cdn.dribbble.com/users/916023/screenshots/14873242/media/a379bc040ab7f090580ed39c6e13c551.png?compress=1&resize=1600x1200&vertical=top" alt="img" class="person-img">
+          <p>Person</p>
+        </div>
+        <h1 id="help">We are here to help!</h1>
+      </div>
+    </div>
   </main>
 </body>
 
