@@ -10,11 +10,17 @@ html, body {
 }
 
 #logo-name {
-  width: 200px;
+  width: 80px;
+  float: left;
+  margin: 6px;
 }
 
-.top-image {
-  width: 200px;
+.col-sm {
+   border-radius: 50%;
+}
+
+#nav-bar {
+  margin-left: 100px;
 }
 
 #first-row {
@@ -132,3 +138,4 @@ h1 {
 #help {
   background: #FBCC67;
 }
+

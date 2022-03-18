@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="about.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="scripts/lettering.js"></script>
+  <script src="scripts/circletype.js"></script>
+  <title>Vanilla JavaScript App</title>
+</head>
+
+<body>
+  <main>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <div class="row" id="logo-name">
+        <img src="https://cdn.dribbble.com/users/1107982/screenshots/15923975/media/6d87a04de02bb47e1ca2e1bb029ca63c.png?compress=1&resize=1200x900&vertical=top" alt="logo" class="col-sm">
+        <h3 style="font-size: 15px;" class="col-sm">Explore</h3>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav-bar">
+      <a style="padding-left: 20px;" class="navbar-brand" href="#">Navigation bar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="class.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    
+    <div id="cyber-circle">
+      <h3 id="cyber-title">Cybersecurity</h3></div>
+    <div id="business-circle">
+      <h3 id="business-title">Business</h3>
+    </div>
+    <script src="scripts/about.js"></script>
+    <ul id="cyber-list">
+        <li>types: Information Security, Operational Security, Network Security</li>
+      <li>skill: risk assessment</li>
+    </ul>
+    
+    <ul id="middle-list">
+        <li><b>trait: be a continuous learner</b></li>
+    </ul>
+    
+    <ul id="business-list">
+      <li>types: Accounting, Marketing, Human Resources</li>
+      <li>skill: negotiation</li>
+    </ul>
+    
+    <div class="container main-container">
+      <h2>How do they overlap?</h2>
+      <div class="row" id="first-row">
+        <div class="col-sm-4">
+          <h2>Location</h2>
+          <p>Both an accountant and a cyber-tech can work at a hospital</p>
+        </div>
+        <div class="col-sm-4">
+          <h2>Departments</h2>
+          <p class="col-text">A cyber-tech can help prevent data breaches in banks </p>
+        </div>
+        <div class="col-sm-4">
+          <img class="cool-graphic" muted loop playsinline autoplay data src="https://cdn.dribbble.com/users/1079085/screenshots/6713168/morph.gif" style="width: 200px;">
+        </div>
+      </div>
+      <h2 id="expect">What to expect in the course:</h2>
+      <br>
+      <div class="row" id="second-row">
+        <div class="col-sm-5">
+          <div id="syllabus"> 
+            <img src="https://i.pinimg.com/564x/06/da/9c/06da9c200b9013ad89f7effd2987de5a.jpg" alt="syllabus" style="width: 200px;"></img>
+            <p>preview of syllabus</p>
+          </div>
+        </div>
+        <div class="col-sm-7">
+          <div id="video">
+            <iframe src="https://youtube.com/embed/iI1-K2nECTo" alt="case-vid" style="width: 600px; height: 300px;"></iframe>
+          </div>
+        </div>
+      </div>
+      <h3 id="input">Input class code to register:</h3>
+      <h4 id="input-code">********</h4>
+    </div>
+    
+    <div class="footer">
+      <h1 style="text-align: center;">Questions? We are here to help!</h1>
+      <p id='end-p'>Reach out to your campus teacher or email us directly at explore@workforceimmersion.org. We are also open to suggestions!</p>
+      </div>
+  </main>
+</body>
+
+</html>

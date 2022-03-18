@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="class.css">
+  <script src="scripts/class.js"></script>
+  <title>Vanilla JavaScript App</title>
+</head>
+
+<body>
+  <main>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <div class="row" id="logo-name">
+        <img src="https://cdn.dribbble.com/users/1107982/screenshots/15923975/media/6d87a04de02bb47e1ca2e1bb029ca63c.png?compress=1&resize=1200x900&vertical=top" alt="logo" class="col-sm">
+        <h3 style="font-size: 15px;" class="col-sm">Explore</h3>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="nav-bar">
+      <a style="padding-left: 20px;" class="navbar-brand" href="#">Navigation bar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="class.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>    
+        </ul>
+      </div>  
+    </nav>
+    
+    <h1 id="course-title"><u>Cybersecurity and Business</u></h1>
+    
+    <div class="top-container">
+       <div class="row" id="first-row">
+     <div class="col-sm-7" id="announcement-column">  
+      <h2>Announcements!</h2>
+     
+       <div class="announce-post">
+        <div class="announce-profile">
+          <img src="https://cdn.dribbble.com/users/763420/screenshots/2711974/media/64d450bee09794cbdfcc1f4303493009.jpg?compress=1&resize=800x600&vertical=top" alt="img" class="img">
+       <p class="caption">Mr. Zur</p>
+         </div>
+          <p>Hey students! First day starts next week. Please get your laptops logged in to our network ASAP! (to be protected)</p>
+       </div>
+       
+       <div class="announce-post">
+        <div class="announce-profile">
+          <img src="https://cdn.dribbble.com/users/763420/screenshots/2711897/media/0ebf1e737f364590c5c1afd9cc549bc5.jpg?compress=1&resize=800x600&vertical=top" alt="img" class="img">
+       <p class="caption">Mr. Smith</p>
+         </div>
+          <p>For our athletes, we have a special guest this week! Register for the event (see attached)!</p>
+       </div>
+      </div>
+         
+    <div class="col-sm-3" id="attachment-column">
+        <h3>Attachments</h3>
+      <div class="attach-post">
+    <img src="https://cdn.dribbble.com/users/1817852/screenshots/4529372/media/c21bea0f152c4c15d20196c2f44138f2.jpg" alt="img" class="img">
+      <p class="caption">security</p>
+    
+      <img src="https://cdn.dribbble.com/users/1817852/screenshots/4529372/media/c21bea0f152c4c15d20196c2f44138f2.jpg" alt="img" class="img">
+      <p class="caption">network</p>
+      </div>
+      
+      <div class="attach-post">
+      <img src="https://cdn.dribbble.com/users/1817852/screenshots/4529372/media/c21bea0f152c4c15d20196c2f44138f2.jpg" alt="img" class="img">
+           <p class="caption">form</p>
+    </div>
+        </div>
+          
+      </div>
+    </div>
+    
+       <input type="text" id="search" placeholder="Search...">
+    
+    <div class="main-container">
+      <div class="row" id="second-row">
+      <div class="col-sm-2 tabs">
+       <a href="#" class="btn btn-primary button" style="background-color: #49ab81; ">Meet Online</a>
+       <br>
+    <a href="#" class="btn btn-primary button" style="background-color: #E1AA35; ">Assignments</a>
+    <br>
+    <a href="#" class="btn btn-primary button" style="background-color: #E1AA35; ">Resources</a>
+    <br>
+    <a href="#" class="btn btn-primary button" style="background-color: #E1AA35; ">All Posts</a>
+    <br>
+        <a href="#" class="btn btn-primary button" style="background-color: #E1AA35; ">People</a>
+    </div>
+      
+      <div class="col-sm-6 main-stream">
+        <div class="new-stream-post">
+        <h1><u>Week 10</u></h1>
+        <img src="https://cdn.dribbble.com/users/730703/screenshots/12650387/media/ef4799d8a3a6ad56143f847ae85d66e9.jpg?compress=1&resize=1200x900&vertical=top" alt="case crime" class="big-img">
+        <h3>Solving a Case Crime...<a href="#" id="read-more" style="font-size: 20px;">read more</a></h3>
+        </div>
+        
+         <div class="stream-post">
+        <h1><u>Week 9</u></h1>
+           <div class="hover-box">
+        <img src="https://cdn.dribbble.com/users/146798/screenshots/4811583/media/18bd861478c239de1d00d28831b51192.gif" alt="eye in keylock" class="big-img" id="gif">
+             <div class="overlay">
+               <p><a href="#" style="color: white;">Fullscreen</a></p>
+               </div>
+           </div>
+           
+        <h3>Secret Branches of Business...<a href="#" id="read-more" style="font-size: 20px;">read more</a></h3>
+        </div>
+        
+      </div>
+      </div>
+      
+      <div class="pop-up">
+      <button class="open-button" onclick="openform()">talk with your friends!</button>
+    <div class="chat" id="myForm">
+      <form action="#" class="form-container">
+        <h2 style="text-align: center;"><u>Chat Box</u></h2>
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="start a convo" name="msg" required></textarea>
+        
+        <button type="submit" class="btn">send message</button>
+        <button type="button" class="btn cancel" onclick="closeform()">close</button>
+      </form>
+    </div>
+      </div>
+      
+      
+    </div>
+    
+    <div class="footer">
+      <h1>Questions? We are here to help!</h1>
+      <p>Reach out to your campus teacher or email us directly at explore@workforceimmersion.org. We are also open to suggestions!</p>
+    </div>    
+  </main>
+</body>
+
+</html>
