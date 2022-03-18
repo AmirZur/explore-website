@@ -70,6 +70,12 @@ html, body {
   float: left;
 }
 
+.mission-title {
+  color: #F8AF13;
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .mission-statement {
   font-weight: bold;
 }
